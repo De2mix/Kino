@@ -1,0 +1,56 @@
+<div *ngIf="rezerwacja1(); else elseBlock"><button  style="color: red;"  type="button" class="button1" disabled>1</button></div>
+<ng-template #elseBlock><button (click)="showMess1();" type="button" class="button1" >1</button> </ng-template>
+
+<div *ngIf="rezerwacja2(); else elseBlock2"><button style="color: red;"  type="button" class="button2" disabled>2</button></div>
+<ng-template #elseBlock2><button (click)="showMess2();" type="button" class="button2" >2</button> </ng-template>
+
+<p *ngIf="rezerwacja3();  else elseBlock3"><button  style="color: red;"  type="button" class="button3" disabled>3</button></p>
+<ng-template #elseBlock3><button (click)="showMess3();"  type="button" class="button3" >3</button> </ng-template>
+
+<p *ngIf="rezerwacja4();  else elseBlock4"><button  style="color: red;"  type="button" class="button4" disabled>4</button></p>
+<ng-template #elseBlock4><button (click)="showMess4();" type="button" class="button4" >4</button> </ng-template>
+
+<p *ngIf="rezerwacja5();  else elseBlock5"><button  style="color: red;"  type="button" class="button5" disabled>5</button></p>
+<ng-template #elseBlock5><button (click)="showMess5();"  type="button" class="button5" >5</button> </ng-template>
+
+<p *ngIf="rezerwacja6();  else elseBlock6"><button  style="color: red;"  type="button" class="button6" disabled>6</button></p>
+<ng-template #elseBlock6><button (click)="showMess6();" type="button" class="button6" >6</button> </ng-template>
+
+<p *ngIf="rezerwacja7();  else elseBlock7"><button  style="color: red;"  type="button" class="button7" disabled>7</button></p>
+<ng-template #elseBlock7><button (click)="showMess7();" type="button" class="button7" >7</button> </ng-template>
+
+<p *ngIf="rezerwacja8();  else elseBlock8"><button  style="color: red;"  type="button" class="button8" disabled>8</button></p>
+<ng-template #elseBlock8><button (click)="showMess8();"  type="button" class="button8" >8</button> </ng-template>
+
+<p *ngIf="rezerwacja9();  else elseBlock9"><button  style="color: red;"  type="button" class="button9" disabled>9</button></p>
+<ng-template #elseBlock9><button (click)="showMess9();" type="button" class="button9" >9</button> </ng-template>
+
+
+
+
+
+<svg width="700" height="300">
+   
+    <rect x="15" y="10" width="300" height="30" stroke="black" fill="transparent" stroke-width="5"/>
+    <text x="130" y="30" class="small">EKRAN</text>
+    <rect x="10" y="70" width="30" height="30" stroke="black" fill="transparent" stroke-width="2"/>
+    <rect x="45" y="70" width="30" height="30" stroke="black" fill="transparent" stroke-width="2"/>
+    <rect x="80" y="70" width="30" height ="30" stroke="black" fill="transparent" stroke-width="2"/>
+    <rect x="115" y="70" width="30" height="30" stroke="black" fill="transparent" stroke-width="2"/>
+    <rect x="150" y="70" width="30" height="30" stroke="black" fill="transparent" stroke-width="2"/>   
+    <rect x="185" y="70" width="30" height="30" stroke="black" fill="transparent" stroke-width="2"/>
+    <rect x="220" y="70" width="30" height="30" stroke="black" fill="transparent" stroke-width="2"/>
+    <rect x="255" y="70" width="30" height="30" stroke="black" fill="transparent" stroke-width="2"/>
+    <rect x="290" y="70" width="30" height="30" stroke="black" fill="transparent" stroke-width="2"/>
+
+  </svg> 
+
+  <p *ngIf="mess1">Czy chcesz zarezerwować to miejsce 1? <button>Rezerwuj</button></p>
+  <p *ngIf="mess2">Czy chcesz zarezerwować to miejsce 2? <button (click) = "post();">Rezerwuj</button></p>
+  <p *ngIf="mess3">Czy chcesz zarezerwować to miejsce 3? <button>Rezerwuj</button></p>
+  <p *ngIf="mess4">Czy chcesz zarezerwować to miejsce 4? <button>Rezerwuj</button></p>
+  <p *ngIf="mess5">Czy chcesz zarezerwować to miejsce 5? <button>Rezerwuj</button></p>
+  <p *ngIf="mess6">Czy chcesz zarezerwować to miejsce 6? <button>Rezerwuj</button></p>
+  <p *ngIf="mess7">Czy chcesz zarezerwować to miejsce 7? <button>Rezerwuj</button></p>
+  <p *ngIf="mess8">Czy chcesz zarezerwować to miejsce 8? <button>Rezerwuj</button></p>
+  <p *ngIf="mess9">Czy chcesz zarezerwować to miejsce 9? <button>Rezerwuj</button></p>

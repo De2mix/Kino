@@ -1,0 +1,11 @@
+<br>
+<p>TO JEST STRONA STARTOWA!
+<br>
+<br>
+<br>
+<br>
+
+<br> Twoje rezerwacje: </p>
+<p *ngFor ="let rezerwacja of rezerwacja">
+    Zarezerwowane miejsce nr: {{rezerwacja.miejsce}} na film "Lassie, wróć" <button (click) = "delete()" class="btn btn-danger">Usuń rezerwację</button>
+</p>
