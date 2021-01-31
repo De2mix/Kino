@@ -1,5 +1,10 @@
 br {
     margin-left: 30px;
 }
+p {
+  padding-top: 60px;
+}
 
-p {margin: 30px;}
+img {
+  opacity: 0.8;
+}
